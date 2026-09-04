@@ -1,0 +1,2 @@
+[tts-check] script sentences: 4 | whisper cues: 4
+✅ TTS coverage OK — 4/4 sentences, no drops/truncation (words script=58 heard=58).

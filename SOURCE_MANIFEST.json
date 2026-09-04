@@ -1,0 +1,373 @@
+{
+  "created": "2026-09-04",
+  "note": "代码与样例来自生产工作区。大部分源码按字节保留，适配项逐项记录；说明和离线 Demo 为新增内容。历史发布记录不代表实时在线状态。路径相对原工作区。",
+  "files": [
+    {
+      "source": "skills/azure-tts/scripts/tts.py",
+      "export": "source/skills/azure-tts/scripts/tts.py",
+      "source_sha256": "a9e1dd7e2451892e4107bebf672a8dacd89b5342313d327dbd1f4f08cae00a26",
+      "export_sha256": "a9e1dd7e2451892e4107bebf672a8dacd89b5342313d327dbd1f4f08cae00a26",
+      "changes": []
+    },
+    {
+      "source": "skills/sne-video-pipeline/scripts/build_episode.py",
+      "export": "source/skills/sne-video-pipeline/scripts/build_episode.py",
+      "source_sha256": "3af51e7644375dd072a067d4dd9191afcf52aed1f4a18b41433a2216cb66d096",
+      "export_sha256": "3af51e7644375dd072a067d4dd9191afcf52aed1f4a18b41433a2216cb66d096",
+      "changes": []
+    },
+    {
+      "source": "skills/sne-video-pipeline/scripts/transcribe_words.py",
+      "export": "source/skills/sne-video-pipeline/scripts/transcribe_words.py",
+      "source_sha256": "d433ceacf86a2c27ded3314b281a8b9fbaa875f2aa49017493831c23aaa63fbd",
+      "export_sha256": "d433ceacf86a2c27ded3314b281a8b9fbaa875f2aa49017493831c23aaa63fbd",
+      "changes": []
+    },
+    {
+      "source": "skills/sne-video-pipeline/scripts/build_karaoke_ass.py",
+      "export": "source/skills/sne-video-pipeline/scripts/build_karaoke_ass.py",
+      "source_sha256": "fc003201662fbe8ba809223dbd207522aeacb4e1a269b430aa8f20a9963d8633",
+      "export_sha256": "fc003201662fbe8ba809223dbd207522aeacb4e1a269b430aa8f20a9963d8633",
+      "changes": []
+    },
+    {
+      "source": "skills/sne-video-pipeline/scripts/composite_burn.py",
+      "export": "source/skills/sne-video-pipeline/scripts/composite_burn.py",
+      "source_sha256": "e7ea6b647fd8432ccf24aaac0b5c94d5fe3f1eb3eac0f244f969fe995026493b",
+      "export_sha256": "e7ea6b647fd8432ccf24aaac0b5c94d5fe3f1eb3eac0f244f969fe995026493b",
+      "changes": []
+    },
+    {
+      "source": "skills/sne-video-pipeline/scripts/gen_en_srt.py",
+      "export": "source/skills/sne-video-pipeline/scripts/gen_en_srt.py",
+      "source_sha256": "1511c3f9d756d58df76466174f6df940c245db4fe888414388a7df097e5fa28f",
+      "export_sha256": "1511c3f9d756d58df76466174f6df940c245db4fe888414388a7df097e5fa28f",
+      "changes": []
+    },
+    {
+      "source": "skills/sne-video-pipeline/scripts/wrap_cover_outro.py",
+      "export": "source/skills/sne-video-pipeline/scripts/wrap_cover_outro.py",
+      "source_sha256": "4e431f7865e595735c44c69727e42c230323c3aa0e517dd0f4295184eefa0c96",
+      "export_sha256": "4e431f7865e595735c44c69727e42c230323c3aa0e517dd0f4295184eefa0c96",
+      "changes": []
+    },
+    {
+      "source": "skills/video-merge/scripts/gen_videos.py",
+      "export": "source/skills/video-merge/scripts/gen_videos.py",
+      "source_sha256": "85ca8e6dcd4b1cf3b8a72f06892f2812b6aafcf3ef3d92c317c2475e9afb84a4",
+      "export_sha256": "85ca8e6dcd4b1cf3b8a72f06892f2812b6aafcf3ef3d92c317c2475e9afb84a4",
+      "changes": []
+    },
+    {
+      "source": "skills/video-merge/scripts/merge_audio_video.py",
+      "export": "source/skills/video-merge/scripts/merge_audio_video.py",
+      "source_sha256": "5e5d40dbf11873b16306ac7d372efb4d420590c95ae4e0f0e6efd197f3e2d3a5",
+      "export_sha256": "5e5d40dbf11873b16306ac7d372efb4d420590c95ae4e0f0e6efd197f3e2d3a5",
+      "changes": []
+    },
+    {
+      "source": "skills/video-merge/scripts/concat_videos.py",
+      "export": "source/skills/video-merge/scripts/concat_videos.py",
+      "source_sha256": "80976ef6597f8a267f1888ed99c3eeeeafa83c6db02584e68a587dd8c0b33b9b",
+      "export_sha256": "80976ef6597f8a267f1888ed99c3eeeeafa83c6db02584e68a587dd8c0b33b9b",
+      "changes": []
+    },
+    {
+      "source": "skills/sne-easy-monologue/scripts/check_tts_coverage.py",
+      "export": "source/skills/sne-easy-monologue/scripts/check_tts_coverage.py",
+      "source_sha256": "12c27950270a7df037be39cfc54b2f6d1afbebb48f5eb95b669a6b2291cc0429",
+      "export_sha256": "12c27950270a7df037be39cfc54b2f6d1afbebb48f5eb95b669a6b2291cc0429",
+      "changes": []
+    },
+    {
+      "source": "skills/snc-easy-monologue/scripts/check_tts_coverage_zh.py",
+      "export": "source/skills/snc-easy-monologue/scripts/check_tts_coverage_zh.py",
+      "source_sha256": "b12e81a7c25051436438444adaaa7c2f9e7ef42b84907034710a7aae555c7f23",
+      "export_sha256": "b12e81a7c25051436438444adaaa7c2f9e7ef42b84907034710a7aae555c7f23",
+      "changes": []
+    },
+    {
+      "source": "skills/snc-easy-monologue/scripts/build_trilingual_chars.py",
+      "export": "source/skills/snc-easy-monologue/scripts/build_trilingual_chars.py",
+      "source_sha256": "02141269545af00ca0c3a6696f76d01c8ca89a5f67db978c0eb33aabbff3c12d",
+      "export_sha256": "02141269545af00ca0c3a6696f76d01c8ca89a5f67db978c0eb33aabbff3c12d",
+      "changes": []
+    },
+    {
+      "source": "skills/snc-easy-monologue/scripts/build_py_en_srt.py",
+      "export": "source/skills/snc-easy-monologue/scripts/build_py_en_srt.py",
+      "source_sha256": "99dfc0157e4644bc4aa01cc7ce9a2eef35f7f47c3369843eab873dbb0c0583ae",
+      "export_sha256": "99dfc0157e4644bc4aa01cc7ce9a2eef35f7f47c3369843eab873dbb0c0583ae",
+      "changes": []
+    },
+    {
+      "source": "skills/dialogue-trilingual/scripts/check_pinyin_count.py",
+      "export": "source/skills/dialogue-trilingual/scripts/check_pinyin_count.py",
+      "source_sha256": "afedeff740adadf1bd80a7811efbc20710af76fd799cd2f5d949531d8ec368b2",
+      "export_sha256": "afedeff740adadf1bd80a7811efbc20710af76fd799cd2f5d949531d8ec368b2",
+      "changes": []
+    },
+    {
+      "source": "skills/dialogue-trilingual/scripts/gen_skeleton.py",
+      "export": "source/skills/dialogue-trilingual/scripts/gen_skeleton.py",
+      "source_sha256": "80dfef1ac1d31e6d5ed753d3e44fc2a40ad795d5ef21a7d49e4b23b8a06d321a",
+      "export_sha256": "80dfef1ac1d31e6d5ed753d3e44fc2a40ad795d5ef21a7d49e4b23b8a06d321a",
+      "changes": []
+    },
+    {
+      "source": "skills/subtitle-check/scripts/check_srt.py",
+      "export": "source/skills/subtitle-check/scripts/check_srt.py",
+      "source_sha256": "ebb5b81756121ec5402d2a6cca1b8ff89dbda7b5e54c7d679abbb10f50146f4d",
+      "export_sha256": "3b16c172ea40d42929b253e1a92bd00ab692472b16e148f5905c7dc896b6de7b",
+      "changes": [
+        "命令行示例文件名改为通用示例名；处理逻辑保持一致"
+      ]
+    },
+    {
+      "source": "skills/youtube-upload/scripts/upload.py",
+      "export": "source/skills/youtube-upload/scripts/upload.py",
+      "source_sha256": "51f56b7d2137e3f1524118d48d5d0a5bba053a3b425102bbca875f99443aca26",
+      "export_sha256": "51f56b7d2137e3f1524118d48d5d0a5bba053a3b425102bbca875f99443aca26",
+      "changes": []
+    },
+    {
+      "source": "skills/youtube-upload/scripts/captions.py",
+      "export": "source/skills/youtube-upload/scripts/captions.py",
+      "source_sha256": "c6aab607ffbf77a336174b391857030939a0cb2c4df3d1cd1114a75513769083",
+      "export_sha256": "c6aab607ffbf77a336174b391857030939a0cb2c4df3d1cd1114a75513769083",
+      "changes": []
+    },
+    {
+      "source": "skills/youtube-upload/scripts/playlist.py",
+      "export": "source/skills/youtube-upload/scripts/playlist.py",
+      "source_sha256": "1a315ddf243ccc118d901e9658a00ef46bd1626265c9c7fc0b2f2e2ae4334970",
+      "export_sha256": "1a315ddf243ccc118d901e9658a00ef46bd1626265c9c7fc0b2f2e2ae4334970",
+      "changes": []
+    },
+    {
+      "source": "skills/sne-docx/scripts/gen_docx.py",
+      "export": "source/skills/sne-docx/scripts/gen_docx.py",
+      "source_sha256": "11c595b03f0eb05f417b7def93b702f885088a983339373ff253632c972fb58c",
+      "export_sha256": "11c595b03f0eb05f417b7def93b702f885088a983339373ff253632c972fb58c",
+      "changes": []
+    },
+    {
+      "source": "skills/podcast-docx/scripts/gen_docx.py",
+      "export": "source/skills/podcast-docx/scripts/gen_docx.py",
+      "source_sha256": "c2011c10c5f6b482533d71286b158364940c3e8d2ede13c6c6a06c8c119d623d",
+      "export_sha256": "c2011c10c5f6b482533d71286b158364940c3e8d2ede13c6c6a06c8c119d623d",
+      "changes": []
+    },
+    {
+      "source": "skills/_shared/google_auth.py",
+      "export": "source/skills/_shared/google_auth.py",
+      "source_sha256": "4139e96b2d84324c07964407ea7387007cd640337e6ee72a0f7a62acdd297714",
+      "export_sha256": "4139e96b2d84324c07964407ea7387007cd640337e6ee72a0f7a62acdd297714",
+      "changes": []
+    },
+    {
+      "source": "skills/_shared/soft_intro.py",
+      "export": "source/skills/_shared/soft_intro.py",
+      "source_sha256": "741943c585bfdaba8c8dd7bd9ba94900efbd5dbd51120fe7a34e029feb60dd96",
+      "export_sha256": "741943c585bfdaba8c8dd7bd9ba94900efbd5dbd51120fe7a34e029feb60dd96",
+      "changes": []
+    },
+    {
+      "source": "requirements.txt",
+      "export": "source/requirements.production-snapshot.txt",
+      "source_sha256": "fc95944eb4689cc3ea965559e3b9823958a4e70f3fe96da0338373587412638f",
+      "export_sha256": "fc95944eb4689cc3ea965559e3b9823958a4e70f3fe96da0338373587412638f",
+      "changes": []
+    },
+    {
+      "source": "SImply Natural English/episodes/0902 fair enough/封面.png",
+      "export": "cases/sne/cover.png",
+      "source_sha256": "4f7421bb9a50b02e87f31893e2c3510a975e11800237bfe9237a66bf3dfc0155",
+      "export_sha256": "4f7421bb9a50b02e87f31893e2c3510a975e11800237bfe9237a66bf3dfc0155",
+      "changes": []
+    },
+    {
+      "source": "SImply Natural English/episodes/0902 fair enough/_build_record.md",
+      "export": "cases/sne/build_record.md",
+      "source_sha256": "2c712e573483a3aa82f699fe786c13cffbd4fba55798750ded836228db24877f",
+      "export_sha256": "190e07a361af7870d6282a6d08108e5ebbcdf41846376c359dbdfd7cd61f76a9",
+      "changes": [
+        "规范本机路径，移除部分文档/评论/播放列表标识，统一换行"
+      ]
+    },
+    {
+      "source": "SImply Natural English/episodes/0902 fair enough/_imagegen_prompts.md",
+      "export": "cases/sne/image_prompts.md",
+      "source_sha256": "659ce156dc9de1d183713ba5cb231ef0562147dbb52f2ca3e1a575b18cb96f3f",
+      "export_sha256": "d535aaa2916b43a7f3582b662ed1a4f714a5d8616e7bf6b766b603a8adcdec9e",
+      "changes": []
+    },
+    {
+      "source": "SImply Natural English/episodes/0902 fair enough/_publish_receipt.json",
+      "export": "cases/sne/publication_evidence.json",
+      "changes": [
+        "只保留作品链接、媒体及字幕状态；移除 OAuth 无关的后台、评论、文档和播放列表标识"
+      ]
+    },
+    {
+      "source": "Simply Natural Chinese/长视频/0902 差不多/封面.png",
+      "export": "cases/snc/cover.png",
+      "source_sha256": "d6059439e041be0c2f9e0875dbcff0adf7edc91effa49845ae2d85308aefae42",
+      "export_sha256": "d6059439e041be0c2f9e0875dbcff0adf7edc91effa49845ae2d85308aefae42",
+      "changes": []
+    },
+    {
+      "source": "Simply Natural Chinese/长视频/0902 差不多/_build_record.md",
+      "export": "cases/snc/build_record.md",
+      "source_sha256": "65a0884408548f3497e7ad61935b2b92e014f4f7f07f15d740f605f6d14679d0",
+      "export_sha256": "a46ba5752ff603c8d4daf66bba7fecbc1afb515beb67e0dff0e334c8867d1f16",
+      "changes": [
+        "规范本机路径，移除部分文档/评论/播放列表标识，统一换行"
+      ]
+    },
+    {
+      "source": "Simply Natural Chinese/长视频/0902 差不多/_imagegen_prompts.md",
+      "export": "cases/snc/image_prompts.md",
+      "source_sha256": "ffd4b0648515037a1d4b3053efbd7acc09d630bcf25087093557f0b7d861cdc2",
+      "export_sha256": "2276babe7f02a59cc22b24785f78b75f4aeec50749b4c171f739dbf174c5c93d",
+      "changes": []
+    },
+    {
+      "source": "Simply Natural Chinese/长视频/0902 差不多/_publish_receipt.json",
+      "export": "cases/snc/publication_evidence.json",
+      "changes": [
+        "只保留作品链接、媒体及字幕状态；移除 OAuth 无关的后台、评论、文档和播放列表标识"
+      ]
+    },
+    {
+      "source": "SImply Natural English/episodes/0902 fair enough/英文.srt",
+      "export": "cases/sne/en.srt",
+      "source_sha256": "8d8cab597c446698103253494b74a528f3f054443387de3e21711e4511e0e584",
+      "export_sha256": "8d8cab597c446698103253494b74a528f3f054443387de3e21711e4511e0e584",
+      "changes": []
+    },
+    {
+      "source": "Simply Natural Chinese/长视频/0902 差不多/差不多.srt",
+      "export": "cases/snc/zh.srt",
+      "source_sha256": "d9e0df1ceaaf4a3f019574b0e2c5ec0aa89d11ee87a7ab63dbcc3cb3e5cc3e0f",
+      "export_sha256": "d9e0df1ceaaf4a3f019574b0e2c5ec0aa89d11ee87a7ab63dbcc3cb3e5cc3e0f",
+      "changes": []
+    },
+    {
+      "source": "Simply Natural Chinese/长视频/0902 差不多/差不多_拼音.srt",
+      "export": "cases/snc/pinyin.srt",
+      "source_sha256": "439910b8518a7b3d85ea393bc683ce276c4cc16d4b946419ee7a5230c748198c",
+      "export_sha256": "439910b8518a7b3d85ea393bc683ce276c4cc16d4b946419ee7a5230c748198c",
+      "changes": []
+    },
+    {
+      "source": "Simply Natural Chinese/长视频/0902 差不多/差不多_英文.srt",
+      "export": "cases/snc/en.srt",
+      "source_sha256": "973b432582116548e8c33726b22d274ce26eb67a86ebc847e7302eb9c8c88ac4",
+      "export_sha256": "973b432582116548e8c33726b22d274ce26eb67a86ebc847e7302eb9c8c88ac4",
+      "changes": []
+    },
+    {
+      "source": "skills/dialogue-portrait-videos/scripts/generate.py",
+      "export": "source/skills/dialogue-portrait-videos/scripts/generate.py",
+      "source_sha256": "749501f05e02ae7137e40d4c39f149ba2aa555da85bbda958003678836076c3b",
+      "export_sha256": "749501f05e02ae7137e40d4c39f149ba2aa555da85bbda958003678836076c3b",
+      "changes": []
+    },
+    {
+      "source": "skills/dialogue-portrait-videos/scripts/wf_to_api.py",
+      "export": "source/skills/dialogue-portrait-videos/scripts/wf_to_api.py",
+      "source_sha256": "c705fe898a12fd5c8d249e91f790dd5ac68dc7964f12d466f6e7afadece9e3c0",
+      "export_sha256": "c705fe898a12fd5c8d249e91f790dd5ac68dc7964f12d466f6e7afadece9e3c0",
+      "changes": []
+    },
+    {
+      "source": "skills/dialogue-portrait-videos/examples/wan_api.json",
+      "export": "source/skills/dialogue-portrait-videos/examples/wan_api.json",
+      "source_sha256": "c9434f30e41ace1b8dfb91aaf4f4c14991e482a0d2e46f155617922b141e8c43",
+      "export_sha256": "c9434f30e41ace1b8dfb91aaf4f4c14991e482a0d2e46f155617922b141e8c43",
+      "changes": []
+    },
+    {
+      "source": "skills/dialogue-portrait-videos/examples/sne_podcast_smart_casual.json",
+      "export": "source/skills/dialogue-portrait-videos/examples/sne_podcast_smart_casual.json",
+      "source_sha256": "dee715cd8b66678e0b4441c22e5a68e591a5786d6257f77de3e0a9b4ab061a9c",
+      "export_sha256": "dee715cd8b66678e0b4441c22e5a68e591a5786d6257f77de3e0a9b4ab061a9c",
+      "changes": []
+    },
+    {
+      "source": "SImply Natural English/人设图/Maya_对话立绘_播客厅_smart-casual_朝右.png",
+      "export": "cases/comfyui/maya_portrait.png",
+      "source_sha256": "4997e70f40c6ad171d847910786d13dafb8e030f265c68ddb6f979f3bae732a7",
+      "export_sha256": "4997e70f40c6ad171d847910786d13dafb8e030f265c68ddb6f979f3bae732a7",
+      "changes": []
+    },
+    {
+      "source": "SImply Natural English/对话视频/Maya 播客厅 sage丝衫 左/001.mp4",
+      "export": "cases/comfyui/maya_clip_001.mp4",
+      "source_sha256": "28ef229630c113b139959038b2df9b19d68c8e1def0c182083a0ea0d42fa7165",
+      "export_sha256": "28ef229630c113b139959038b2df9b19d68c8e1def0c182083a0ea0d42fa7165",
+      "changes": []
+    },
+    {
+      "source": "SImply Natural English/人设图/Ethan_对话立绘_播客厅_smart-casual_朝左.png",
+      "export": "cases/comfyui/ethan_portrait.png",
+      "source_sha256": "87d404a6ba8baa8db95fafec9ea9686f423286b1971271efbc050fb174dd40f5",
+      "export_sha256": "87d404a6ba8baa8db95fafec9ea9686f423286b1971271efbc050fb174dd40f5",
+      "changes": []
+    },
+    {
+      "source": "SImply Natural English/对话视频/Ethan 播客厅 卡其西装 右/001.mp4",
+      "export": "cases/comfyui/ethan_clip_001.mp4",
+      "source_sha256": "165d84f2e11933db2fa23d1f8c400ecc811b2b50e6b1f886d001160720fc4131",
+      "export_sha256": "165d84f2e11933db2fa23d1f8c400ecc811b2b50e6b1f886d001160720fc4131",
+      "changes": []
+    }
+  ],
+  "derived_examples": [
+    {
+      "source": "SImply Natural English/episodes/0902 fair enough/Fair Enough.mp4",
+      "export": "cases/sne/preview_60s.mp4",
+      "changes": [
+        "取前 60 秒，压缩为 960x540 H.264/AAC，移除媒体元数据"
+      ]
+    },
+    {
+      "source": "Simply Natural Chinese/长视频/0902 差不多/差不多 Almost, Similar, or Good Enough.mp4",
+      "export": "cases/snc/preview_60s.mp4",
+      "changes": [
+        "取前 60 秒，压缩为 960x540 H.264/AAC，移除媒体元数据"
+      ]
+    },
+    {
+      "source": "SImply Natural English/episodes/0902 fair enough/script.txt + 全片_words.json",
+      "export": "demo/fixtures/sne/",
+      "changes": [
+        "抽取前四轮原稿与词时间；复制原稿到质检输入文件名；从末词时间生成 timeline"
+      ]
+    },
+    {
+      "source": "Simply Natural Chinese/长视频/0902 差不多/差不多_三语.txt",
+      "export": "demo/fixtures/snc/trilingual.txt",
+      "changes": [
+        "抽取前四组三语文本"
+      ]
+    },
+    {
+      "source": "skills/dialogue-portrait-videos/examples/sne_podcast_smart_casual.json",
+      "export": "source/skills/dialogue-portrait-videos/examples/demo.example.json",
+      "changes": [
+        "立绘路径指向随包样例，目标目录指向 demo/output，ComfyUI 输入输出目录为待配置的示例路径"
+      ]
+    }
+  ],
+  "new_materials": [
+    "README.md",
+    "docs/*.md",
+    "demo/run_demo.py",
+    "demo/output/*",
+    ".gitignore",
+    ".env.example",
+    "运行离线演示.cmd"
+  ]
+}

@@ -1,0 +1,34 @@
+# Simply Natural Chinese 工作区 Python 依赖
+# 安装：python -m venv .venv && .\.venv\Scripts\pip install -r requirements.txt
+# 版本以 2026-05 当前 .venv 实际安装为准，可微调。
+
+# ===== 核心：脚本里直接 import =====
+pypinyin==0.55.0
+requests==2.33.1
+Pillow==12.2.0
+python-docx==1.2.0
+
+# ===== Azure TTS =====
+azure-cognitiveservices-speech==1.49.1
+
+# ===== Google API（YouTube + Drive 上传）=====
+google-api-python-client==2.195.0
+google-auth==2.50.0
+google-auth-oauthlib==1.3.1
+google-auth-httplib2==0.3.1
+
+# ===== Whisper（可选，长视频段对齐用）=====
+# 装了后如果要 GPU 加速，按搬家指南第 5 节复制 cuBLAS DLL
+faster-whisper==1.2.1
+
+# ===== HTTP/网络底层（被上面的包间接依赖，固定版本避免冲突）=====
+httpx==0.28.1
+urllib3==2.6.3
+certifi==2026.4.22
+
+# ===== 视频下载（备用工具）=====
+yt-dlp==2026.3.17
+
+# ===== 远程操作（如果要 SSH 到 zoey-no1 服务器跑命令）=====
+paramiko==5.0.0
+invoke==3.0.3

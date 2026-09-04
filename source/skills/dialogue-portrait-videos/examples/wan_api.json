@@ -1,0 +1,612 @@
+{
+  "129": {
+    "class_type": "MathExpression|pysssss",
+    "inputs": {
+      "expression": "a*16+1",
+      "a": [
+        "128",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "MathExpression|pysssss"
+    }
+  },
+  "152": {
+    "class_type": "Any Switch (rgthree)",
+    "inputs": {
+      "any_02": [
+        "234",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "Any Switch (rgthree)"
+    }
+  },
+  "100": {
+    "class_type": "wanBlockSwap",
+    "inputs": {
+      "model": [
+        "152",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "WanVideoBlockSwap High Pass"
+    }
+  },
+  "153": {
+    "class_type": "Any Switch (rgthree)",
+    "inputs": {
+      "any_02": [
+        "235",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "Any Switch (rgthree)"
+    }
+  },
+  "101": {
+    "class_type": "wanBlockSwap",
+    "inputs": {
+      "model": [
+        "153",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "WanVideoBlockSwap Low Pass"
+    }
+  },
+  "105": {
+    "class_type": "JWImageResizeByLongerSide",
+    "inputs": {
+      "size": [
+        "130",
+        0
+      ],
+      "interpolation_mode": "bicubic",
+      "image": [
+        "160",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "JWImageResizeByLongerSide"
+    }
+  },
+  "107": {
+    "class_type": "JWImageResizeByLongerSide",
+    "inputs": {
+      "size": [
+        "130",
+        0
+      ],
+      "interpolation_mode": "bicubic",
+      "image": [
+        "62",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "JWImageResizeByLongerSide"
+    }
+  },
+  "67": {
+    "class_type": "WanFirstLastFrameToVideo",
+    "inputs": {
+      "width": [
+        "106",
+        0
+      ],
+      "height": [
+        "106",
+        1
+      ],
+      "length": [
+        "129",
+        0
+      ],
+      "batch_size": 1,
+      "positive": [
+        "175",
+        0
+      ],
+      "negative": [
+        "7",
+        0
+      ],
+      "vae": [
+        "39",
+        0
+      ],
+      "start_image": [
+        "105",
+        0
+      ],
+      "end_image": [
+        "107",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "WanFirstLastFrameToVideo"
+    }
+  },
+  "106": {
+    "class_type": "GetImageSize",
+    "inputs": {
+      "image": [
+        "105",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "GetImageSize"
+    }
+  },
+  "160": {
+    "class_type": "Any Switch (rgthree)",
+    "inputs": {
+      "any_01": [
+        "68",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "Any Switch (rgthree)"
+    }
+  },
+  "148": {
+    "class_type": "Any Switch (rgthree)",
+    "inputs": {
+      "any_02": [
+        "67",
+        1
+      ],
+      "any_03": [
+        "7",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "Any Switch (rgthree)"
+    }
+  },
+  "163": {
+    "class_type": "Any Switch (rgthree)",
+    "inputs": {
+      "any_03": [
+        "67",
+        2
+      ]
+    },
+    "_meta": {
+      "title": "Any Switch (rgthree)"
+    }
+  },
+  "98": {
+    "class_type": "UnetLoaderGGUF",
+    "inputs": {
+      "unet_name": "wan22\\wan2.2_i2v_low_noise_14B_Q4_K_M.gguf"
+    },
+    "_meta": {
+      "title": "UnetLoaderGGUF"
+    }
+  },
+  "147": {
+    "class_type": "Any Switch (rgthree)",
+    "inputs": {
+      "any_02": [
+        "67",
+        0
+      ],
+      "any_03": [
+        "175",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "Any Switch (rgthree)"
+    }
+  },
+  "39": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "wan_2.1_vae.safetensors"
+    },
+    "_meta": {
+      "title": "VAELoader"
+    }
+  },
+  "257": {
+    "class_type": "UltralyticsDetectorProvider",
+    "inputs": {
+      "model_name": "bbox/face_yolov8n.pt"
+    },
+    "_meta": {
+      "title": "UltralyticsDetectorProvider"
+    }
+  },
+  "38": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+      "type": "wan",
+      "device": "default"
+    },
+    "_meta": {
+      "title": "CLIPLoader"
+    }
+  },
+  "8": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "58",
+        0
+      ],
+      "vae": [
+        "39",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "VAEDecode"
+    }
+  },
+  "146": {
+    "class_type": "ModelSamplingSD3",
+    "inputs": {
+      "shift": 5,
+      "model": [
+        "155",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "ModelSamplingSD3"
+    }
+  },
+  "54": {
+    "class_type": "ModelSamplingSD3",
+    "inputs": {
+      "shift": 5,
+      "model": [
+        "154",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "ModelSamplingSD3"
+    }
+  },
+  "175": {
+    "class_type": "Any Switch (rgthree)",
+    "inputs": {
+      "any_03": [
+        "172",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "Any Switch (rgthree)"
+    }
+  },
+  "130": {
+    "class_type": "mxSlider",
+    "inputs": {
+      "Xi": 720,
+      "Xf": 720,
+      "isfloatX": 0
+    },
+    "_meta": {
+      "title": "Image Resize by Longer Side"
+    }
+  },
+  "97": {
+    "class_type": "UnetLoaderGGUF",
+    "inputs": {
+      "unet_name": "wan22\\wan2.2_i2v_high_noise_14B_Q4_K_M.gguf"
+    },
+    "_meta": {
+      "title": "UnetLoaderGGUF"
+    }
+  },
+  "7": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "blurry, low quality, distorted anatomy, static image, flickering, deformed hands, text, watermark, messy background, oversaturated,dark and dull colors, low resolution, shaky camera, floating debris, nonsensical architecture, flat lighting, grainy, glitched motion,scary, creepy, realistic eyes, ugly, deformed, 2D, flat, jittery movement, low detail, creepy lighting, mirror",
+      "clip": [
+        "38",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "CLIPTextEncode"
+    }
+  },
+  "58": {
+    "class_type": "KSamplerAdvanced",
+    "inputs": {
+      "add_noise": "disable",
+      "noise_seed": 0,
+      "steps": [
+        "125",
+        0
+      ],
+      "cfg": 1,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "start_at_step": [
+        "126",
+        0
+      ],
+      "end_at_step": 10000,
+      "return_with_leftover_noise": "disable",
+      "model": [
+        "146",
+        0
+      ],
+      "positive": [
+        "147",
+        0
+      ],
+      "negative": [
+        "148",
+        0
+      ],
+      "latent_image": [
+        "57",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "KSamplerAdvanced"
+    }
+  },
+  "126": {
+    "class_type": "JWFloatToInteger",
+    "inputs": {
+      "value": [
+        "127",
+        0
+      ],
+      "mode": "round"
+    },
+    "_meta": {
+      "title": "JWFloatToInteger"
+    }
+  },
+  "127": {
+    "class_type": "JWIntegerDiv",
+    "inputs": {
+      "a": [
+        "125",
+        0
+      ],
+      "b": 2
+    },
+    "_meta": {
+      "title": "JWIntegerDiv"
+    }
+  },
+  "57": {
+    "class_type": "KSamplerAdvanced",
+    "inputs": {
+      "add_noise": "enable",
+      "noise_seed": 763430536596483,
+      "steps": [
+        "125",
+        0
+      ],
+      "cfg": 1,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "start_at_step": 0,
+      "end_at_step": [
+        "126",
+        0
+      ],
+      "return_with_leftover_noise": "enable",
+      "model": [
+        "54",
+        0
+      ],
+      "positive": [
+        "147",
+        0
+      ],
+      "negative": [
+        "148",
+        0
+      ],
+      "latent_image": [
+        "163",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "KSamplerAdvanced"
+    }
+  },
+  "154": {
+    "class_type": "Power Lora Loader (rgthree)",
+    "inputs": {
+      "model": [
+        "100",
+        0
+      ],
+      "clip": [
+        "38",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "Power Lora Loader (rgthree)"
+    }
+  },
+  "155": {
+    "class_type": "Power Lora Loader (rgthree)",
+    "inputs": {
+      "model": [
+        "101",
+        0
+      ],
+      "clip": [
+        "38",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "Power Lora Loader (rgthree)"
+    }
+  },
+  "128": {
+    "class_type": "mxSlider",
+    "inputs": {
+      "Xi": 10,
+      "Xf": 10,
+      "isfloatX": 0
+    },
+    "_meta": {
+      "title": "Clip Lenght ( in seconds )"
+    }
+  },
+  "172": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "画面：这个角色正在轻松的聊天，表情轻松，嘴巴一直在动，手和身体还有表情随着说话自然运动",
+      "clip": [
+        "38",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "CLIPTextEncode"
+    }
+  },
+  "234": {
+    "class_type": "LoraLoaderModelOnly",
+    "inputs": {
+      "lora_name": "WAN2.2\\Wan21_I2V_14B_lightx2v_cfg_step_distill_lora_rank64.safetensors",
+      "strength_model": 3,
+      "model": [
+        "97",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "LoraLoaderModelOnly"
+    }
+  },
+  "235": {
+    "class_type": "LoraLoaderModelOnly",
+    "inputs": {
+      "lora_name": "WAN2.2\\Wan21_I2V_14B_lightx2v_cfg_step_distill_lora_rank64.safetensors",
+      "strength_model": 1.5,
+      "model": [
+        "98",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "LoraLoaderModelOnly"
+    }
+  },
+  "112": {
+    "class_type": "UpscaleModelLoader",
+    "inputs": {
+      "model_name": "RealESRGAN_x2.pth"
+    },
+    "_meta": {
+      "title": "UpscaleModelLoader"
+    }
+  },
+  "109": {
+    "class_type": "ImageUpscaleWithModel",
+    "inputs": {
+      "upscale_model": [
+        "112",
+        0
+      ],
+      "image": [
+        "8",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "ImageUpscaleWithModel"
+    }
+  },
+  "110": {
+    "class_type": "RIFE VFI",
+    "inputs": {
+      "ckpt_name": "rife49.pth",
+      "clear_cache_after_n_frames": 16,
+      "multiplier": 4,
+      "fast_mode": false,
+      "ensemble": true,
+      "scale_factor": 1,
+      "dtype": "float32",
+      "torch_compile": false,
+      "batch_size": 1,
+      "frames": [
+        "109",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "RIFE VFI"
+    }
+  },
+  "125": {
+    "class_type": "mxSlider",
+    "inputs": {
+      "Xi": 8,
+      "Xf": 8,
+      "isfloatX": 0
+    },
+    "_meta": {
+      "title": "Generation Steps"
+    }
+  },
+  "68": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "Gemini_Generated_Image_vau3a7vau3a7vau3.png"
+    },
+    "_meta": {
+      "title": "LoadImage"
+    }
+  },
+  "62": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "Gemini_Generated_Image_vau3a7vau3a7vau3.png"
+    },
+    "_meta": {
+      "title": "LoadImage"
+    }
+  },
+  "111": {
+    "class_type": "VHS_VideoCombine",
+    "inputs": {
+      "frame_rate": 60,
+      "loop_count": 0,
+      "filename_prefix": "wan/小悦说话",
+      "format": "video/h264-mp4",
+      "pingpong": false,
+      "save_output": true,
+      "images": [
+        "110",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "VHS_VideoCombine"
+    }
+  }
+}

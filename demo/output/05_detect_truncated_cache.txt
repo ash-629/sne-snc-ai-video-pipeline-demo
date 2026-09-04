@@ -1,0 +1,8 @@
+[tts-check] script sentences: 4 | whisper cues: 4
+
+⚠⚠ TTS COVERAGE: 1 sentence(s) flagged — possible drop/truncation:
+  [句003] ratio=0.22 trailing_missing=14 missing=['accepted', 'her', 'reason', 'but', 'your', 'message', 'may', 'have', 'sounded', 'like', 'the', 'conversation', 'was', 'closed']
+     script : Ah. You accepted her reason, but your message may have sounded like the conversation was closed.
+     heard  : Ah, you
+
+  → 复查上面这些句的 audio/，必要时重合成该句（删对应 WAV 后 --skip 其它步骤重跑）。

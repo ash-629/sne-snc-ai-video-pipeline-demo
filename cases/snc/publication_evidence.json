@@ -1,0 +1,29 @@
+{
+  "published_at": "2026-09-02T14:36:29+08:00",
+  "video_id": "ZbZs0fHt7Vc",
+  "video_url": "https://www.youtube.com/watch?v=ZbZs0fHt7Vc",
+  "privacy": "unlisted",
+  "caption_offset_seconds": 1.0,
+  "captions": [
+    "en",
+    "ja",
+    "ko",
+    "es",
+    "id",
+    "th",
+    "vi",
+    "fr",
+    "ru",
+    "pt",
+    "my"
+  ],
+  "verification": {
+    "processing_succeeded": true,
+    "upload_status": "processed",
+    "duration": "PT18M18S",
+    "hd_available": true,
+    "custom_thumbnail_maxres": true,
+    "caption_tracks_serving": 11
+  },
+  "evidence_note": "2026-09-02 本地发布记录的字段筛选副本；本次整理未重新查询线上状态。"
+}

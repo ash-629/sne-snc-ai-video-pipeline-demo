@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.youtube_credentials/
+token*.json
+client_secret*.json
+Azure info.md

@@ -1,0 +1,2 @@
+# Preserve source snapshots byte-for-byte so SOURCE_MANIFEST hashes stay valid.
+* -text

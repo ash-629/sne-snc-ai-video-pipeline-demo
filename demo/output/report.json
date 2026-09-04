@@ -1,0 +1,54 @@
+{
+  "scope": "Offline subset only: existing ASR cache, ASS generation, text/pinyin QA, SRT offset.",
+  "network_calls": false,
+  "new_model_inference": false,
+  "negative_cases": "Controlled damaged cache and missing pinyin token, added for this demo.",
+  "checks": [
+    {
+      "name": "01_real_sample_ass",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "passed": true,
+      "log": "demo\\output\\01_real_sample_ass.txt"
+    },
+    {
+      "name": "02_real_sample_tts_check",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "passed": true,
+      "log": "demo\\output\\02_real_sample_tts_check.txt"
+    },
+    {
+      "name": "03_real_sample_pinyin",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "passed": true,
+      "log": "demo\\output\\03_real_sample_pinyin.txt"
+    },
+    {
+      "name": "04_source_wording_preserved",
+      "passed": true,
+      "expected_words": 59,
+      "actual_words": 59
+    },
+    {
+      "name": "05_detect_truncated_cache",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "passed": true,
+      "log": "demo\\output\\05_detect_truncated_cache.txt"
+    },
+    {
+      "name": "06_detect_missing_pinyin",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "passed": true,
+      "log": "demo\\output\\06_detect_missing_pinyin.txt"
+    },
+    {
+      "name": "07_soft_intro_offset",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,12 @@
+=== 10 clip(s) to generate ===
+
+  maya_portrait.png → <PACKAGE>\demo\output\generated_clips\Maya 播客厅 sage丝衫 左\001.mp4
+  maya_portrait.png → <PACKAGE>\demo\output\generated_clips\Maya 播客厅 sage丝衫 左\002.mp4
+  maya_portrait.png → <PACKAGE>\demo\output\generated_clips\Maya 播客厅 sage丝衫 左\003.mp4
+  maya_portrait.png → <PACKAGE>\demo\output\generated_clips\Maya 播客厅 sage丝衫 左\004.mp4
+  maya_portrait.png → <PACKAGE>\demo\output\generated_clips\Maya 播客厅 sage丝衫 左\005.mp4
+  ethan_portrait.png → <PACKAGE>\demo\output\generated_clips\Ethan 播客厅 卡其西装 右\001.mp4
+  ethan_portrait.png → <PACKAGE>\demo\output\generated_clips\Ethan 播客厅 卡其西装 右\002.mp4
+  ethan_portrait.png → <PACKAGE>\demo\output\generated_clips\Ethan 播客厅 卡其西装 右\003.mp4
+  ethan_portrait.png → <PACKAGE>\demo\output\generated_clips\Ethan 播客厅 卡其西装 右\004.mp4
+  ethan_portrait.png → <PACKAGE>\demo\output\generated_clips\Ethan 播客厅 卡其西装 右\005.mp4

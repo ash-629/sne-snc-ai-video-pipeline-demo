@@ -1,0 +1,30 @@
+{
+  "_comment": "SNE 播客厅 smart-casual 这一套，每张立绘出 5 个 talking-head clip。",
+  "api_workflow_path": "wan_api.json",
+  "comfyui_api_base": "http://127.0.0.1:8188",
+  "comfyui_input_dir": "I:/AI/ComfyUI/input",
+  "comfyui_output_dir": "I:/AI/ComfyUI/output",
+  "input_stage_prefix": "sne_",
+  "image_node_ids": [
+    "68",
+    "62"
+  ],
+  "prompt_node_id": "172",
+  "prompt_text": "画面：角色坐在原地保持当前姿势和构图，只做自然的说话动作——嘴唇随对话开合、眼神偶尔看向镜头外的对话者、眉毛轻微挑动、头部小幅自然倾斜或点头、双手保持在画面内偶尔做轻微的解释性手势。整体动作克制自然，不要起身、不要离开座位、不要剧烈摆头、不要伸手碰脸或挡嘴。背景保持稳定不变。",
+  "seed_node_id": "57",
+  "output_node_id": "111",
+  "output_filename_prefix_template": "sne_batch/{folder}_{idx:03d}",
+  "target_root": "../../../SImply Natural English/对话视频",
+  "portraits": [
+    {
+      "image_path": "../../../SImply Natural English/人设图/Maya_对话立绘_播客厅_smart-casual_朝右.png",
+      "folder_name": "Maya 播客厅 sage丝衫 左",
+      "count": 5
+    },
+    {
+      "image_path": "../../../SImply Natural English/人设图/Ethan_对话立绘_播客厅_smart-casual_朝左.png",
+      "folder_name": "Ethan 播客厅 卡其西装 右",
+      "count": 5
+    }
+  ]
+}

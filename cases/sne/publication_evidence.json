@@ -1,0 +1,40 @@
+{
+  "published_at": "2026-09-02T18:52:40+08:00",
+  "video_id": "ysUnLJgMOKk",
+  "youtube_url": "https://www.youtube.com/watch?v=ysUnLJgMOKk",
+  "privacy_status": "unlisted",
+  "upload_status": "processed",
+  "processing_status": "succeeded",
+  "definition": "hd",
+  "duration": "PT21M37S",
+  "custom_thumbnail": true,
+  "caption_offset_seconds": 1.0,
+  "caption_tracks_uploaded": [
+    "zh-Hans",
+    "es",
+    "pt",
+    "id",
+    "vi",
+    "ja",
+    "ko",
+    "ru",
+    "fr",
+    "th",
+    "de"
+  ],
+  "caption_tracks_serving": [
+    "zh-Hans",
+    "es",
+    "pt",
+    "id",
+    "vi",
+    "ja",
+    "ko",
+    "ru",
+    "fr",
+    "th",
+    "de"
+  ],
+  "caption_track_count": 11,
+  "evidence_note": "2026-09-02 本地发布记录的字段筛选副本；本次整理未重新查询线上状态。"
+}

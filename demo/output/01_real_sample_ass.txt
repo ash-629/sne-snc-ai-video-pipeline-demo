@@ -1,0 +1,1 @@
+wrote demo\output\sne\全片.ass (5 cues from 4 turns; 1:1=4, hyphen-merged=0, contraction-expanded=0, proportional=0, split-turns=1, max-words=16, hard-cap=40)
